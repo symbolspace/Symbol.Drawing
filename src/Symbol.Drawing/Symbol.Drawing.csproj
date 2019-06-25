@@ -21,7 +21,7 @@
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/symbolspace/Symbol/</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/symbolspace/Symbol/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/symbolspace/Symbol.Drawing/master/icon.png</PackageIconUrl>
     <PackageTags>web;symbol</PackageTags>
     <PackageReleaseNotes>Please see https://github.com/symbolspace/Symbol.Drawing/wiki/Home for more information.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
