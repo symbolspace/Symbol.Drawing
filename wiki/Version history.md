@@ -3,5 +3,5 @@
 
 * Symbol.Drawing.dll [![Available on NuGet https://www.nuget.org/packages/Symbol.Drawing/](https://img.shields.io/nuget/v/Symbol.Drawing.svg?style=flat)](https://www.nuget.org/packages/Symbol.Drawing/) 
 
-# v4.1.0.6 2019-06-24
+# v4.0.0.1 2019-06-24
 * 分离到子仓库；
