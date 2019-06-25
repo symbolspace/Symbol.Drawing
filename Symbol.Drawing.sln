@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{542F968D-365B-4EE5-942A-34084516813D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".file", ".file", "{8ACAA298-CFB8-4C6F-B14F-4B20D233B94A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+		Symbol.snk = Symbol.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A50E1220-69A1-44FF-9CD3-41701686EE7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".wiki", ".wiki", "{5013F7B6-C264-40F8-8180-36CD83FFB4DC}"
+	ProjectSection(SolutionItems) = preProject
+		wiki\Home.md = wiki\Home.md
+		wiki\Version history.md = wiki\Version history.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tools", ".tools", "{0579BA7F-3F32-498B-8101-816D14A2B7B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Symbol.Drawing", "src\Symbol.Drawing\Symbol.Drawing.csproj", "{99100FBD-54EB-49B0-9619-7D01DD022D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99100FBD-54EB-49B0-9619-7D01DD022D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99100FBD-54EB-49B0-9619-7D01DD022D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99100FBD-54EB-49B0-9619-7D01DD022D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99100FBD-54EB-49B0-9619-7D01DD022D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99100FBD-54EB-49B0-9619-7D01DD022D5A} = {542F968D-365B-4EE5-942A-34084516813D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {068486BB-8127-4F5C-82A1-C1CEA8BC1B63}
+	EndGlobalSection
+EndGlobal
