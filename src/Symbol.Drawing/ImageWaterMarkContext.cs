@@ -46,7 +46,7 @@ namespace Symbol.Drawing {
         /// <summary>
         /// 文本水印
         /// </summary>
-        public string Text { get; private set; }
+        public string Text { get;  set; }
         /// <summary>
         /// 文本字体
         /// </summary>
@@ -70,7 +70,19 @@ namespace Symbol.Drawing {
         /// <summary>
         /// 图像水印
         /// </summary>
-        public Bitmap Image { get; private set; }
+        public Bitmap Image { get; set; }
+
+        /// <summary>
+        /// 测算文本绘制大小函数
+        /// </summary>
+        public MeasureStringFunc MeasureStringFunc { get; set; }
+
+        /// <summary>
+        /// 创建水印上下文实例
+        /// </summary>
+        public ImageWaterMarkContext() 
+            :this(ImageWaterMarkLocation.BottomRight) {
+        }
 
         /// <summary>
         /// 创建水印上下文实例（文本水印）
@@ -104,4 +116,11 @@ namespace Symbol.Drawing {
             Opacity = 0.51F;
         }
     }
+    /// <summary>
+    /// 函数定义：测算文本绘制大小
+    /// </summary>
+    /// <param name="text">需要测算的文本</param>
+    /// <param name="font">用于绘制时的字体</param>
+    /// <returns></returns>
+    public delegate SizeF MeasureStringFunc(string text, Font font);
 }
